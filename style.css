@@ -5,6 +5,9 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -297,3 +300,23 @@ color: black;
   .text-right button{
     margin: 0;
   }
+
+   .btn-white {
+        color: #000 !important;
+        background-color: #fff !important;
+    }
+
+    .btn-details {
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-details:hover {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+
+    .card-title i {
+        margin-right: 5px;
+    }
+
+    
